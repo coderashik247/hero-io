@@ -70,8 +70,8 @@ const Navbar = () => {
               </NavLink>
             </ul>
           </div>
-          <Link to={"/"} className="btn btn-ghost font-bold text-3xl flex justify-center items-center">
-           <img src={logoImg} alt="" className="h-10 w-10" /> Hero IO
+          <Link to={"/"} className="btn btn-ghost font-bold text-base lg:text-3xl flex justify-center items-center p-0 lg:">
+           <img src={logoImg} alt="" className="h-5 w-5 lg:h-10 lg:w-10" /> Hero IO
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -121,7 +121,7 @@ const Navbar = () => {
               background:
                 "linear-gradient(125.07deg, rgba(99, 46, 227, 1), rgba(159, 98, 242, 1) 100%)",
             }}
-            className="py-1 px-6 text-lg text-white font-semibold border rounded-lg flex justify-center items-center gap-2"
+            className="py-1 px-2 lg:px-6 text-lg text-white font-semibold border rounded-lg flex justify-center items-center gap-2"
           >
             <FaGithub /> Contribute
           </Link>

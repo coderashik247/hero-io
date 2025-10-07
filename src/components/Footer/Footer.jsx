@@ -6,8 +6,8 @@ import logoImg from '../../assets/logo.png'
 
 const Footer = () => {
   return (
-    <footer className="footer footer-horizontal footer-center bg-base-200 text-base-content rounded p-10">
-        <Link to={'/'}> <img src={logoImg} className="h-25" alt="" /> </Link>
+    <footer className="footer footer-horizontal footer-center bg-base-200 text-base-content rounded p-2 lg:p-10">
+        <Link to={'/'}> <img src={logoImg} className="h-15  lg:h-25" alt="" /> </Link>
       <nav className="grid grid-flow-col gap-4">
         <Link to={'/'} className="link link-hover text-lg">Home</Link>
         <Link to={'https://github.com/coderashik247'} className="link link-hover text-lg">About</Link>

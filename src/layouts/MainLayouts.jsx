@@ -8,7 +8,7 @@ const MainLayouts = () => {
       <div className="bg-stone-50">
         <Navbar></Navbar>
       </div>
-      <div className="min-h-[calc(100vh-150px)]">
+      <div className="min-h-[calc(100vh-150px)] bg-[#d2d2d296]">
         <Outlet></Outlet>
       </div>
       <div className="bg-stone-50">
