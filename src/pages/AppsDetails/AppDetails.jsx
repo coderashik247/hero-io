@@ -13,6 +13,9 @@ import {
   ResponsiveContainer,
   Tooltip,
 } from "recharts";
+import { getApps, saveApps } from "../../utils";
+import { useEffect, useState } from "react";
+
 
 const AppDetails = () => {
   const { appsId } = useParams();
@@ -22,6 +25,20 @@ const AppDetails = () => {
   const singleAppData = appsData.find((app) => app.id === parseInt(appsId));
 
   const data = [...singleAppData.ratings].reverse();
+
+  const [clickInstall, setClickInstall] = useState(false);
+
+    useEffect(() => {
+    const savedApps = getApps();
+    const isInstalled = savedApps.find((a) => a.id === singleAppData.id);
+    if (isInstalled) {
+      setClickInstall(true);
+    }
+  }, [singleAppData.id]);
+
+  const handleInstall = (singleApp) => {
+    saveApps((singleApp));
+  }
 
   return (
     <Container>
@@ -98,8 +115,8 @@ const AppDetails = () => {
                 </div>
               </div>
             </div>
-            <button className="bg-[#00d390] rounded-lg font-bold text-white px-6 py-3">
-              Install Now ({singleAppData.size}){" "}
+            <button onClick={() => {handleInstall(singleAppData); setClickInstall(true) }} disabled={clickInstall} className={`bg-[#00d390] rounded-lg font-semibold text-white px-6 py-3 hover:scale-105 hover:cursor-pointer hover:bg-white hover:text-[#00d390] hover:border-[#00d390]  hover:border disabled:opacity-60 disabled:cursor-not-allowed`}>
+              {clickInstall ? "Installed" : `Install Now (${singleAppData.size})`}
             </button>
           </div>
         </div>
