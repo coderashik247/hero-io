@@ -2,7 +2,6 @@ import { FaStar } from "react-icons/fa";
 import { MdOutlineFileDownload } from "react-icons/md";
 
 const AppCard = ({ app }) => {
-  console.log(app);
   const { image,  subtitle, size, ratingAvg } = app;
   return (
     <div className="bg-white p-6 rounded-lg">
