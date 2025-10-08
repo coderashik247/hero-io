@@ -1,13 +1,15 @@
-import { useLoaderData } from "react-router";
+import { useLoaderData, useNavigate } from "react-router";
 import Container from "../../components/Container/Container";
 import AppCard from "../../components/AppCard/AppCard";
 import { VscVscodeInsiders } from "react-icons/vsc";
 import { useState } from "react";
 import { HiMiniMagnifyingGlass } from "react-icons/hi2";
+import { FaArrowRightToBracket } from "react-icons/fa6";
 
 const Apps = () => {
   const appsData = useLoaderData();
   const [searchItem, setSearchItem] = useState("");
+  const navigate = useNavigate()
 
   const filterApps = appsData.filter((app) =>
     app.subtitle.toLowerCase().includes(searchItem.toLocaleLowerCase())
@@ -25,7 +27,7 @@ const Apps = () => {
       </div>
       <div className="flex justify-between items-center ">
         <p className="text-xl font-semibold text-gray-700">
-         ({filterApps.length}) App Found
+          ({filterApps.length}) App Found
         </p>
 
         <div className="relative w-72">
@@ -43,9 +45,27 @@ const Apps = () => {
         </div>
       </div>
       <div className="grid grid-cols-4 gap-6 py-10">
-        {
-            filterApps.length > 0 ? (filterApps.map((app,index) => <AppCard key={index} app={app}></AppCard>)) : (<p>No data found</p>)
-        }
+        {filterApps.length > 0 ? (
+          filterApps.map((app, index) => (
+            <AppCard key={index} app={app}></AppCard>
+          ))
+        ) : (
+          <div className="flex justify-center items-center flex-col col-span-4">
+            <h2 className="pt-20 text-6xl text-gray-500 font-bold my-10">No Apps Found</h2>
+            <div className="pb-10 flex justify-center items-center">
+              <button
+                onClick={() => navigate("/")}
+                style={{
+                  background:
+                    "linear-gradient(125.07deg, rgba(99, 46, 227, 1), rgba(159, 98, 242, 1) 100%)",
+                }}
+                className="px-6 py-2 text-white font-semibold rounded-xl hover:scale-110 hover:cursor-pointer flex justify-center items-center gap-2"
+              >
+                See More <FaArrowRightToBracket size={20} />
+              </button>
+            </div>
+          </div>
+        )}
       </div>
     </Container>
   );
