@@ -1,0 +1,702 @@
+[
+  {
+    "image": "https://i.ibb.co/V0V5BZZH/1-Health-Mate.png",
+    "title": "HealthMate",
+    "subtitle": "HealthMate: Fitness, Sleep & Nutrition Tracker",
+    "companyName": "Wellness Corp",
+    "id": 1,
+    "description": "HealthMate helps you track your daily fitness goals, monitor your sleep quality, and log your meals. It gives personalized recommendations to improve your wellness. You can see trends over time and get insights based on your data. It also integrates with wearable trackers and syncs across devices. You’ll get reminders for water intake, steps, and rest breaks. The app includes guided breathing exercises and short meditations. You can share reports with your doctor if needed. It also has a community forum for motivation and support.",
+    "document": "HealthMate is your personal wellness companion that helps you lead a healthier lifestyle. It allows you to track your daily fitness activities, including steps, workouts, and calories burned. You can monitor your sleep patterns and receive insights to improve your sleep quality. Logging your meals is easy, and you get nutritional feedback based on your diet. The app lets you set personalized wellness goals and provides daily reminders to stay on track. Detailed trends over time help you understand your progress and habits. HealthMate gives tailored recommendations to improve your overall health and fitness. You can sync your data with wearable devices and other health apps for seamless tracking. The app also analyzes hydration, stress levels, and heart rate to help maintain balance. Guided workouts and exercise plans are available for all fitness levels. You can discover healthy recipes and meal suggestions based on your goals. It helps you track weight, BMI, and body measurements to visualize your transformation. Motivational insights and tips keep you consistent in your wellness routine. You can share achievements with friends or join community challenges for extra motivation. Overall, HealthMate makes it simple and enjoyable to stay informed, active, and healthy every day.",
+    "size": 45,
+    "reviews": 1250,
+    "ratingAvg": 4.6,
+    "downloads": 500000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 45
+      },
+      {
+        "name": "2 star",
+        "count": 80
+      },
+      {
+        "name": "3 star",
+        "count": 150
+      },
+      {
+        "name": "4 star",
+        "count": 350
+      },
+      {
+        "name": "5 star",
+        "count": 625
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/236vtYwS/2-Note-Flow-1.png",
+    "title": "NoteFlow",
+    "subtitle": "NoteFlow: Smart Notes & Organization",
+    "companyName": "MindTools Ltd",
+    "id": 2,
+    "description": "NoteFlow is a simple, elegant note-taking app that syncs your notes across all your devices. You can create text notes, voice memos, and attach images or files. It supports rich formatting, tags, and search by keyword. It also lets you organize notes into notebooks, and has a dark mode. The app supports offline access and auto sync once you're online. You can also share notes with collaborators and export to PDF. Reminders and alerts help you remember to revisit your notes. Version history lets you recover old versions of your notes.",
+    "document": " NoteFlow is your ultimate digital notebook designed to simplify your life. It lets you quickly capture ideas, thoughts, and important information in one place. Organize your notes with folders, tags, and color-coding for easy access. You can create checklists, to-do lists, and reminders to stay productive. NoteFlow supports rich text formatting so your notes look exactly how you want. Add images, links, and attachments to make your notes more informative. The app allows you to search through your notes instantly to find what you need. You can sync your notes across devices for seamless access anytime, anywhere. Collaboration features let you share notes with friends, family, or colleagues. NoteFlow provides cloud backup to keep your information safe and secure. You can customize your workspace to match your personal style and workflow. Templates and note organization tools help you get started quickly. NoteFlow makes studying, planning, and organizing your life simple and efficient. Smart reminders ensure you never forget important tasks or deadlines. It helps you stay focused, organized, and productive every day. Overall, NoteFlow is the perfect tool to capture, organize, and manage all your notes effortlessly",
+    "size": 32,
+    "reviews": 880,
+    "ratingAvg": 4.3,
+    "downloads": 300000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 60
+      },
+      {
+        "name": "2 star",
+        "count": 70
+      },
+      {
+        "name": "3 star",
+        "count": 110
+      },
+      {
+        "name": "4 star",
+        "count": 280
+      },
+      {
+        "name": "5 star",
+        "count": 360
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/27920Fpn/3-Budget-Buddy.png",
+    "title": "BudgetBuddy",
+    "subtitle": "BudgetBuddy: Personal Finance & Expense Tracker",
+    "companyName": "FinSolve",
+    "id": 3,
+    "description": "BudgetBuddy helps you manage expenses and income, set monthly budgets, and track spending in categories. You see visual charts and alerts when you approach limits. The AI engine gives suggestions on how to reallocate your budget. It links to your bank (if your bank supports API), or you can input manually. The app also helps set saving goals, and shows your progress. You can export reports or schedule periodic summaries to your email. It supports multiple currencies and offline usage. Secure login and encryption protect sensitive data.",
+    "document": "BudgetBuddy is your smart personal finance assistant that helps you take control of your money. It allows you to track your daily expenses and income effortlessly. You can categorize transactions to see where your money is going. Set monthly budgets for different categories and get alerts when you’re close to exceeding them. BudgetBuddy provides visual insights with charts and graphs to help you understand your spending habits. You can set financial goals, like saving for a trip or paying off debt, and monitor your progress. The app automatically generates reports to give a clear overview of your finances. It supports syncing with your bank accounts for accurate and up-to-date data. BudgetBuddy helps you plan bills and recurring payments so you never miss one. You can add notes to transactions for better context and organization. The app also suggests tips to reduce expenses and improve savings. With password protection and cloud backup, your financial data stays secure. BudgetBuddy makes it easy to compare your income and expenses to improve financial health. Smart notifications keep you on track with your financial goals. Overall, BudgetBuddy is the perfect companion to manage, track, and grow your finances with ease.",
+    "size": 56,
+    "reviews": 2300,
+    "ratingAvg": 4.8,
+    "downloads": 1200000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 70
+      },
+      {
+        "name": "2 star",
+        "count": 90
+      },
+      {
+        "name": "3 star",
+        "count": 180
+      },
+      {
+        "name": "4 star",
+        "count": 460
+      },
+      {
+        "name": "5 star",
+        "count": 1500
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/ch7XVwyy/4-Study-Spark.png",
+    "title": "StudySpark",
+    "subtitle":"StudySpark: Learn, Practice & Excel",
+    "companyName": "EduNext",
+    "id": 4,
+    "description": "StudySpark offers interactive flashcards, quizzes, and review games to make studying fun and effective. You can build your own decks or import from shared decks. Spaced repetition ensures you see what needs review. You get progress tracking and learning analytics. The app includes hints, explanations, and mnemonics. You can compete with friends or classmates. It supports multi-platform sync. Notifications remind you to review forgotten cards. Offline mode lets you study without connectivity.",
+    "document":"StudySpark is your all-in-one learning companion designed to help you study smarter. It allows you to organize your study materials and notes in one convenient place. You can create personalized study plans based on your goals and schedule. The app provides interactive quizzes and practice tests to reinforce your learning. Track your progress over time and identify areas that need improvement. StudySpark offers detailed explanations and solutions for every question to enhance understanding. You can set reminders for study sessions and upcoming exams to stay consistent. Collaborative features let you share notes and resources with classmates or study groups. The app supports multiple subjects and topics, making it versatile for any student. StudySpark also provides tips and techniques to improve memory and retention. You can highlight and annotate important content for quick reference. Offline access ensures you can study anytime, even without internet. Motivational insights and streak tracking keep you engaged and focused. StudySpark adapts to your learning style, making studying efficient and effective. Overall, StudySpark makes learning organized, interactive, and enjoyable, helping you achieve your academic goals.",
+    "size": 40,
+    "reviews": 760,
+    "ratingAvg": 4.5,
+    "downloads": 420000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 25
+      },
+      {
+        "name": "2 star",
+        "count": 50
+      },
+      {
+        "name": "3 star",
+        "count": 100
+      },
+      {
+        "name": "4 star",
+        "count": 220
+      },
+      {
+        "name": "5 star",
+        "count": 365
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/yFC3wCzD/5-Travel-Mate-1.png",
+    "title": "TravelMate",
+    "subtitle": "TravelMate: Plan, Explore & Adventure",
+    "companyName": "GoGlobal",
+    "id": 5,
+    "description": "TravelMate is your companion for planning trips, packing lists, and itinerary creation. It shows suggested routes, local attractions, transport options, and maps. You can download offline maps and guides. The app also provides recommendations for restaurants, events, and hidden local gems. It gives travel alerts and real-time updates for flights or trains. You can collaborate with friends in shared itineraries. Expense splitting and currency conversion help when you travel with others. You also get safety tips and local language phrases built in.",
+    "document": "TravelMate is your ultimate travel companion that makes every journey seamless and enjoyable. It helps you plan trips efficiently, from flights and accommodations to daily itineraries. You can discover popular destinations, hidden gems, and local attractions. The app provides travel guides, tips, and recommendations to make your experience memorable. Track your travel budget and expenses to manage your finances on the go. TravelMate allows you to store important travel documents and reservations in one place. You can create packing lists and checklists to ensure nothing is forgotten. Real-time notifications keep you updated on flight changes, delays, and local events. Share your trips and experiences with friends or family for collaborative planning. The app supports offline access so you can use it even without internet. TravelMate also helps you find restaurants, cafes, and local experiences based on your preferences. Personalized suggestions make every trip unique and tailored to your interests. You can rate and review places to help other travelers and keep memories. TravelMate ensures safety tips, travel advisories, and local guidelines are always available. Overall, TravelMate makes exploring the world simple, organized, and full of adventure.",
+    "size": 60,
+    "reviews": 3100,
+    "ratingAvg": 4.7,
+    "downloads": 1800000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 150
+      },
+      {
+        "name": "2 star",
+        "count": 160
+      },
+      {
+        "name": "3 star",
+        "count": 290
+      },
+      {
+        "name": "4 star",
+        "count": 720
+      },
+      {
+        "name": "5 star",
+        "count": 1780
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/HTJ7xzHD/6-Focus-Zen.png",
+    "title": "FocusZen",
+    "subtitle":"FocusZen: Mindfulness & Productivity Booster",
+    "companyName": "Clarity Studios",
+    "id": 6,
+    "description": "FocusZen is a productivity app using the Pomodoro method, ambient sounds, and task tracking. You break your work into intervals with planned breaks. The ambient sound library lets you pick background noise that improves your focus. You see stats on your concentration, streaks, and task completion. You can pause, skip, or adjust durations. The app supports reminders, daily goals, and weekly reports. You can categorize tasks and tag priorities. Syncing across devices ensures continuity. Offline mode is supported so you’re not distracted by notifications.",
+    "document":"FocusZen is your personal companion for improving concentration and mental clarity. It helps you block distractions and stay focused on tasks that matter. The app offers guided meditation sessions to reduce stress and increase mindfulness. You can set timers for work, study, or creative sessions using the Pomodoro technique. FocusZen tracks your productivity patterns and gives insights to optimize your workflow. Daily mindfulness exercises help you stay calm, centered, and energized. You can create personalized focus routines to suit your lifestyle and goals. The app provides ambient sounds and music to enhance concentration. FocusZen reminds you to take healthy breaks to avoid burnout. You can track your focus streaks to stay motivated and consistent. Integration with calendar and task apps keeps all your work organized in one place. Guided breathing exercises help you relax during stressful moments. FocusZen also allows journaling to reflect on your thoughts and progress. Smart notifications encourage you to maintain focus and mindfulness throughout the day. Overall, FocusZen makes it easy to enhance concentration, productivity, and mental well-being consistently.",
+    "size": 28,
+    "reviews": 540,
+    "ratingAvg": 4.4,
+    "downloads": 150000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 30
+      },
+      {
+        "name": "2 star",
+        "count": 40
+      },
+      {
+        "name": "3 star",
+        "count": 70
+      },
+      {
+        "name": "4 star",
+        "count": 160
+      },
+      {
+        "name": "5 star",
+        "count": 240
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/r2R37zkm/7-Quick-Shop-1.png",
+    "title": "QuickShop",
+    "subtitle": "QuickShop: Smart & Fast Shopping",
+    "companyName": "RetailEdge",
+    "id": 7,
+    "description": "QuickShop finds real-time deals, coupons, and personalized discounts while you shop. You can scan barcodes or search items to compare prices. The app shows nearby stores and online offers. Savings alerts notify you when something goes on discount. You can keep a wishlist and get price-drop alerts. The app supports secure payments and order tracking. Review and rating sections help you choose sellers. Loyalty program integration gives you extra rewards. Share deals with friends and track your savings history.",
+    "document": "QuickShop is your convenient shopping assistant designed to make every purchase effortless. It allows you to browse thousands of products across multiple categories. You can compare prices, read reviews, and find the best deals instantly. QuickShop enables easy search and filter options to quickly find what you need. Add items to your wishlist or cart with just a few taps. The app supports secure payment options for fast and safe checkout. Track your orders in real-time to know when your items will arrive. QuickShop provides personalized recommendations based on your preferences and purchase history. You can set alerts for discounts, sales, and special offers. Manage multiple addresses and delivery preferences with ease. QuickShop also allows you to save favorite brands and products for future reference. Smart notifications keep you informed about new arrivals and exclusive deals. The app supports easy returns and customer support to resolve issues quickly. QuickShop ensures a seamless shopping experience from start to finish. Overall, QuickShop makes shopping fast, secure, and personalized, helping you save time and money.",
+    "size": 75,
+    "reviews": 4100,
+    "ratingAvg": 4.1,
+    "downloads": 2200000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 300
+      },
+      {
+        "name": "2 star",
+        "count": 350
+      },
+      {
+        "name": "3 star",
+        "count": 600
+      },
+      {
+        "name": "4 star",
+        "count": 1300
+      },
+      {
+        "name": "5 star",
+        "count": 1550
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/C3K5Xh0F/8-Pet-Care-1png.png",
+    "title": "PetCare",
+    "subtitle":"PetCare: Health & Happiness for Your Pets",
+    "companyName": "AnimalWell",
+    "id": 8,
+    "description": "PetCare helps you manage your pet’s health, vaccinations, feeding schedules, and activity logs. You can set reminders for vet visits, medications, and grooming. The app logs weight, diet, and behavior notes. You get tips tailored to your pet’s breed and age. Connect with local veterinarians or community groups. You can record photos, notes, and milestones. The app supports multiple pets. Share health reports with your pet sitter. Offline access ensures you have data even when you’re traveling.",
+    "document":"PetCare is your all-in-one app for managing the health and well-being of your pets. It helps you track vaccinations, medical appointments, and medication schedules. You can log your pet’s daily activities, meals, and exercise routines. PetCare provides reminders for feeding, grooming, and vet visits to keep your pet healthy. The app allows you to monitor weight, growth, and overall health over time. You can store important documents like medical records, adoption papers, and insurance info. PetCare offers tips on nutrition, training, and care specific to your pet’s breed. You can set up multiple profiles if you have more than one pet. The app provides access to local veterinarians, pet services, and emergency contacts. PetCare supports reminders for buying pet supplies and tracking expenses. You can share pet milestones and updates with family or friends. The app includes educational content to improve your knowledge of pet care. PetCare also offers community features to connect with other pet owners. Smart notifications ensure you never miss important tasks or appointments. Overall, PetCare makes caring for your pets easier, organized, and more enjoyable, ensuring they stay happy and healthy.",
+    "size": 48,
+    "reviews": 950,
+    "ratingAvg": 4.6,
+    "downloads": 600000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 40
+      },
+      {
+        "name": "2 star",
+        "count": 65
+      },
+      {
+        "name": "3 star",
+        "count": 120
+      },
+      {
+        "name": "4 star",
+        "count": 310
+      },
+      {
+        "name": "5 star",
+        "count": 415
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/XZP7nfds/8-Fit-Beat-1.png",
+    "title": "FitBeat",
+    "subtitle":"FitBeat: Fitness & Heart Health Tracker",
+    "companyName": "PulseWorks",
+    "id": 9,
+    "description": "FitBeat couples workout tracking with motivational music and challenges. You can log exercises, reps, sets, and durations. The app plays curated music that matches your workout intensity. You’ll see trends, calories burned, and goals achieved. Social challenges let you compete with friends. You can set reminders for workouts and rest days. The app supports multiple training plans. Sync with wearables and heart rate monitors. Photo and progress tracking help with motivation. Offline mode ensures usability during gym sessions with no signal.",
+    "document":"FitBeat is your ultimate fitness companion designed to help you stay active and healthy. It allows you to track daily workouts, steps, and calories burned. You can monitor your heart rate and overall cardiovascular health in real time. FitBeat helps you set personalized fitness goals and provides insights to achieve them. Track your sleep patterns and understand how rest impacts your performance. The app logs your meals and gives nutritional suggestions to complement your fitness plan. FitBeat offers guided workouts for all levels, from beginner to advanced. You can view trends over time to see your progress and improvements. Integration with wearable devices ensures accurate data tracking. FitBeat provides reminders for workouts, hydration, and daily activity. The app offers challenges and achievements to keep you motivated and engaged. You can share your progress with friends or join community challenges for extra inspiration. FitBeat tracks weight, BMI, and body measurements to visualize transformation. Personalized recommendations help you optimize your exercise and diet plans. Overall, FitBeat makes staying fit, monitoring health, and achieving your fitness goals simple, fun, and effective.",
+    "size": 53,
+    "reviews": 2200,
+    "ratingAvg": 4.9,
+    "downloads": 2500000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 55
+      },
+      {
+        "name": "2 star",
+        "count": 75
+      },
+      {
+        "name": "3 star",
+        "count": 160
+      },
+      {
+        "name": "4 star",
+        "count": 460
+      },
+      {
+        "name": "5 star",
+        "count": 1450
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/pjzJXn3y/10-Cookify.png",
+    "title": "Cookify",
+    "subtitle": "Cookify: Recipes, Meal Plans & Cooking Made Easy",
+    "companyName": "HomeChef",
+    "id": 10,
+    "description": "Cookify suggests recipes based on what’s already in your pantry. You can input ingredients and get matching meals. It provides step-by-step instructions, photos, and timers. You can filter by diet, cuisine, or allergies. Save your favorite recipes and create weekly meal plans. The app also generates shopping lists. You can scale recipe portions easily. Nutritional information is shown per dish. Share recipes and photos with others. Offline mode ensures you can cook without internet.",
+    "document":"Cookify is your ultimate kitchen companion, designed to make cooking simple and enjoyable. It helps you discover thousands of recipes from different cuisines around the world. You can save your favorite recipes and organize them in personalized collections. Cookify provides step-by-step cooking instructions and video tutorials for easy learning. The app allows you to create meal plans and generate shopping lists automatically. You can search recipes based on ingredients, dietary preferences, or cooking time. Cookify suggests healthy alternatives and nutritional information for each meal. It supports tracking your cooking progress and experimenting with new dishes. You can share recipes and cooking tips with friends and family. The app provides seasonal and trending recipe recommendations to keep your menu exciting. Cookify also includes tips for meal prepping and efficient kitchen management. Smart notifications remind you about cooking schedules and ingredient availability. You can rate and review recipes to help the community discover the best dishes. Cookify makes cooking interactive, fun, and educational for all skill levels. Overall, Cookify empowers you to cook confidently, eat healthily, and enjoy every meal with ease.",
+    "size": 62,
+    "reviews": 1340,
+    "ratingAvg": 4.5,
+    "downloads": 800000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 80
+      },
+      {
+        "name": "2 star",
+        "count": 110
+      },
+      {
+        "name": "3 star",
+        "count": 190
+      },
+      {
+        "name": "4 star",
+        "count": 380
+      },
+      {
+        "name": "5 star",
+        "count": 580
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/cXCXzHWn/11-News-Flash.png",
+    "title": "NewsFlash",
+    "subtitle": "NewsFlash: Instant Updates & Trending Stories",
+    "companyName": "InfoStream",
+    "id": 11,
+    "description": "NewsFlash delivers personalized news, trending stories, and live coverage based on your interests. You can choose topics and regions. The app includes multimedia content: videos, images, and podcasts. It supports offline reading and saving articles. You get breaking news alerts and customizable notification frequency. You can follow authors, topics, and sources. The app shows reading time estimates and related reads. You can comment, share, and bookmark stories. Dark mode and font size settings improve reading comfort.",
+    "document":"NewsFlash is your go-to app for staying updated with the latest news from around the world. It delivers breaking news in real time so you never miss an important story. You can customize your feed based on your interests and preferred topics. NewsFlash covers multiple categories including politics, technology, sports, entertainment, and more. The app provides concise summaries as well as detailed articles for in-depth reading. You can save articles to read later or share them with friends and family. NewsFlash supports offline reading so you can stay informed without an internet connection. Personalized notifications alert you to trending stories and breaking news. The app offers videos, live coverage, and photo galleries to enhance your news experience. You can follow specific journalists or news sources for trusted updates. NewsFlash also includes local news to keep you informed about events in your area. It provides fact-checked and verified information to ensure reliability. You can interact with news by liking, commenting, or sharing your opinions. Smart recommendations help you discover trending and relevant stories. Overall, NewsFlash keeps you informed, engaged, and connected to the world anytime, anywhere.",
+    "size": 50,
+    "reviews": 1780,
+    "ratingAvg": 4.2,
+    "downloads": 900000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 160
+      },
+      {
+        "name": "2 star",
+        "count": 210
+      },
+      {
+        "name": "3 star",
+        "count": 400
+      },
+      {
+        "name": "4 star",
+        "count": 500
+      },
+      {
+        "name": "5 star",
+        "count": 510
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/bMLw2BGN/12-Edu-Play.png",
+    "title": "EduPlay",
+    "subtitle": "EduPlay: Learn, Play & Grow",
+    "companyName": "LearnFun",
+    "id": 12,
+    "description": "EduPlay offers games and quizzes for kids to learn math, language, and logic skills. Colorful visuals and rewards make learning fun. Parents can track progress and set learning goals. The app adapts to the child’s pace. It supports multiple player profiles. You can download lessons for offline use. The app includes mini challenges and badges. You get daily practice reminders. It also supports multiple languages. Safe mode ensures no ads or external links during play.",
+    "document":"EduPlay is an interactive learning app designed to make education fun and engaging for children. It combines games, quizzes, and activities to teach important skills across multiple subjects. Children can explore math, science, language, and arts through playful learning experiences. EduPlay adapts to each child’s learning pace, providing personalized challenges and rewards. The app encourages critical thinking, problem-solving, and creativity through interactive tasks. Parents can track progress and see how their child is developing in different areas. EduPlay includes colorful visuals and animations to make learning exciting. The app offers a safe and child-friendly environment for independent learning. Children can earn badges and points, motivating them to complete lessons and challenges. EduPlay provides offline access so learning can continue anytime, anywhere. The app also supports collaborative learning, allowing kids to play and learn together. Educational content is aligned with age-appropriate standards and milestones. Smart notifications remind children to complete tasks and keep a consistent learning routine. EduPlay makes studying enjoyable while building confidence and curiosity in young learners. Overall, EduPlay empowers children to learn, play, and grow in a fun and engaging way.",
+    "size": 80,
+    "reviews": 890,
+    "ratingAvg": 4.7,
+    "downloads": 700000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 35
+      },
+      {
+        "name": "2 star",
+        "count": 45
+      },
+      {
+        "name": "3 star",
+        "count": 100
+      },
+      {
+        "name": "4 star",
+        "count": 250
+      },
+      {
+        "name": "5 star",
+        "count": 460
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/hJNyDqTX/13-Task-Hero.png",
+    "title": "TaskHero",
+    "subtitle":"TaskHero: Organize, Track & Achieve",
+    "companyName": "Boostify",
+    "id": 13,
+    "description": "TaskHero helps you organize tasks, set streaks, and complete daily challenges to boost productivity. You can break tasks into subtasks and schedule deadlines. Streak system encourages consistency. The app gamifies your workflow with rewards and levels. You can prioritize tasks and tag them. It offers reminders and recurring tasks. Sync across your devices to keep everything current. Reports show weekly/monthly performance. Archive completed tasks. Share and collaborate on tasks with others.",
+    "document":"TaskHero is your ultimate productivity app designed to help you manage tasks efficiently. It allows you to create, organize, and prioritize tasks in one place. You can set deadlines, reminders, and recurring tasks to stay on top of your schedule. TaskHero supports categories and tags for better organization and easy retrieval. The app provides progress tracking to help you monitor completed and pending tasks. You can collaborate with team members, friends, or family on shared projects. TaskHero offers checklists and subtasks for breaking down complex tasks into manageable steps. Smart notifications ensure you never miss deadlines or important updates. The app provides visual charts and summaries to analyze productivity patterns. You can integrate TaskHero with calendars and other productivity tools for seamless planning. The app allows you to attach files, notes, or links to tasks for better context. TaskHero motivates you with achievements and streaks to maintain consistency. Offline access ensures you can manage your tasks anytime, anywhere. Personalized suggestions help optimize your workflow and efficiency. Overall, TaskHero makes task management simple, organized, and effective, helping you achieve your goals with ease.",
+    "size": 37,
+    "reviews": 650,
+    "ratingAvg": 4.4,
+    "downloads": 280000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 30
+      },
+      {
+        "name": "2 star",
+        "count": 50
+      },
+      {
+        "name": "3 star",
+        "count": 90
+      },
+      {
+        "name": "4 star",
+        "count": 180
+      },
+      {
+        "name": "5 star",
+        "count": 300
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/DPDc7XcY/14-Weather-Cast.png",
+    "title": "WeatherCast",
+    "subtitle": "WeatherCast: Real-Time Forecast & Alerts",
+    "companyName": "SkyWatch",
+    "id": 14,
+    "description": "WeatherCast gives you precise forecasts, radar maps, and weather alerts for your location. You can see hourly, daily, and weekly forecasts. The app includes precipitation maps, wind speed, UV index, and air quality. You’ll get push alerts for storms, heat waves, or heavy rain. It supports multiple saved locations. You can view past weather trends. The design is clean, with animated backgrounds. It works offline with cached data. Widgets let you check weather quickly from the home screen.",
+    "document":"WeatherCast is your reliable weather companion, providing accurate forecasts anytime, anywhere. It delivers real-time updates on temperature, humidity, wind speed, and more. You can view hourly, daily, and weekly forecasts to plan your activities. WeatherCast offers severe weather alerts to keep you safe during storms or extreme conditions. The app provides interactive radar maps to track weather patterns and precipitation. You can set personalized locations to monitor weather in your city or while traveling. WeatherCast supports notifications for rain, snow, or temperature changes. The app provides sunrise and sunset times, UV index, and air quality information. WeatherCast also includes tips and recommendations for outdoor activities based on current conditions. You can compare historical weather trends to better understand climate patterns. The app is designed with a user-friendly interface for easy navigation and quick information access. WeatherCast offers widgets for your home screen to check weather at a glance. The app supports offline mode to view previously loaded forecasts even without internet. Smart notifications help you prepare for sudden weather changes or daily plans. Overall, WeatherCast makes staying informed about the weather simple, accurate, and convenient for everyday life.",
+    "size": 43,
+    "reviews": 2100,
+    "ratingAvg": 4.3,
+    "downloads": 1500000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 140
+      },
+      {
+        "name": "2 star",
+        "count": 190
+      },
+      {
+        "name": "3 star",
+        "count": 300
+      },
+      {
+        "name": "4 star",
+        "count": 700
+      },
+      {
+        "name": "5 star",
+        "count": 770
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/MDDFkDky/15-Lang-Master.png",
+    "title": "LangMaster",
+    "subtitle": "LangMaster: Learn Languages with Ease",
+    "companyName": "GlobeLingua",
+    "id": 15,
+    "description": "LangMaster uses AI and speech recognition to help you learn new languages. Lessons include listening, speaking, reading, and writing. You get instant pronunciation feedback, quizzes, and flashcards. The app adapts to your skill level. You can compete in daily challenges and unlock levels. Offline lesson packs let you study without internet. Track your streaks and progress. You can chat with native speakers. It supports many languages and dialects. Review reminders help you retain vocabulary.",
+    "document":"LangMaster is your all-in-one language learning app designed to make mastering new languages simple and fun. It offers courses in multiple languages with lessons tailored to your skill level. You can practice reading, writing, listening, and speaking to improve fluency. LangMaster provides interactive exercises, quizzes, and games to reinforce learning. The app tracks your progress and highlights areas that need improvement. You can set daily goals and reminders to maintain a consistent learning routine. LangMaster includes pronunciation guides and voice recognition to help perfect your accent. The app offers cultural tips and context to make learning more engaging. You can practice with native speakers through chat or conversation exercises. LangMaster allows offline access to lessons so you can learn anytime, anywhere. The app provides flashcards and spaced repetition techniques to improve vocabulary retention. Personalized suggestions help focus on areas that matter most for your goals. LangMaster offers challenges and achievements to keep motivation high. You can track streaks and milestones to see how far you’ve come. Overall, LangMaster makes learning a new language enjoyable, interactive, and effective, helping you speak confidently and naturally.",
+    "size": 78,
+    "reviews": 3120,
+    "ratingAvg": 4.8,
+    "downloads": 2200000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 90
+      },
+      {
+        "name": "2 star",
+        "count": 130
+      },
+      {
+        "name": "3 star",
+        "count": 220
+      },
+      {
+        "name": "4 star",
+        "count": 640
+      },
+      {
+        "name": "5 star",
+        "count": 2040
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/7JhzwCzb/16-Photo-Fix.png",
+    "title": "PhotoFix",
+    "subtitle": "PhotoFix: Edit, Enhance & Share",
+    "companyName": "PixelLab",
+    "id": 16,
+    "description": "PhotoFix lets you enhance your photos with AI filters, background remover, and retouching tools. You can adjust brightness, contrast, saturation, and more. The app supports layers, masks, and selective edits. One-tap presets help beginners. You can remove unwanted objects or automatically fix red eyes. The background removal tool works for complex edges. You can crop and resize for social media. The app supports exporting in multiple formats. Save your edits to cloud. It also features tutorials and tips for better photography.",
+    "document":"PhotoFix is your all-in-one photo editing app designed to make every picture look professional. It allows you to enhance colors, brightness, contrast, and sharpness with just a few taps. You can crop, rotate, and resize images to fit any format or platform. PhotoFix offers filters and effects to give your photos a unique and stylish look. The app provides tools for removing blemishes, unwanted objects, and imperfections effortlessly. You can adjust saturation, hue, and exposure for precise editing. PhotoFix supports text overlays, stickers, and frames to make your images creative and fun. Batch editing allows you to apply changes to multiple photos at once, saving time. The app includes AI-powered features to automatically improve photo quality. You can organize edited photos into albums for easy access and management. PhotoFix allows sharing directly to social media or with friends and family. The app supports RAW image editing for professional-quality results. Smart suggestions help you enhance photos based on content and lighting. PhotoFix ensures all edits are non-destructive, keeping your original image safe. Overall, PhotoFix makes photo editing simple, creative, and enjoyable for everyone.",
+    "size": 90,
+    "reviews": 5200,
+    "ratingAvg": 4.6,
+    "downloads": 4000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 300
+      },
+      {
+        "name": "2 star",
+        "count": 400
+      },
+      {
+        "name": "3 star",
+        "count": 600
+      },
+      {
+        "name": "4 star",
+        "count": 1300
+      },
+      {
+        "name": "5 star",
+        "count": 2600
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/mFSmY671/17-Mind-Ease.png",
+    "title": "MindEase",
+    "subtitle": "MindEase: Relaxation, Meditation & Stress Relief",
+    "companyName": "CalmSpace",
+    "id": 17,
+    "description": "MindEase supports meditation, indoor sounds, and mental health tracking. It includes guided meditations, breathing exercises, and sleep stories. You can track mood, stress levels, and journal entries. The app gives reminders and streaks to encourage daily practice. You can set custom session lengths and choose ambient sounds (rain, forest, etc.). It integrates with health apps to read your heart rate or sleep data. Offline mode works for flights or travel. You can set dark mode, and track your growth over weeks/months. Community forums or group meditations are optional features.",
+    "document":"MindEase is your personal companion for mental wellness, designed to help you relax and de-stress. It offers guided meditation sessions suitable for beginners and advanced users. You can practice breathing exercises to calm your mind and improve focus. MindEase provides sleep stories and relaxing sounds to enhance sleep quality. The app tracks your mood and mental well-being over time to identify patterns. You can create personalized meditation routines based on your goals and schedule. MindEase offers mindfulness exercises to reduce anxiety and increase self-awareness. Daily reminders help you maintain a consistent relaxation practice. The app provides tips and techniques for managing stress in everyday life. You can set timers and track sessions to monitor your progress. MindEase includes calming music and ambient sounds for focus or relaxation. You can journal your thoughts to reflect and gain insights into your mental state. Smart notifications encourage short breaks and mindfulness moments throughout the day. MindEase also offers community challenges and support for motivation and accountability. Overall, MindEase makes relaxation, meditation, and stress management simple, effective, and enjoyable.",
+    "size": 59,
+    "reviews": 1980,
+    "ratingAvg": 4.9,
+    "downloads": 950000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 25
+      },
+      {
+        "name": "2 star",
+        "count": 45
+      },
+      {
+        "name": "3 star",
+        "count": 100
+      },
+      {
+        "name": "4 star",
+        "count": 290
+      },
+      {
+        "name": "5 star",
+        "count": 1520
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/pv9B4dCC/18-Daily-Quote.png",
+    "title": "DailyQuote",
+    "subtitle":"DailyQuote: Inspiration & Motivation Every Day",
+    "companyName": "InspireMe",
+    "id": 18,
+    "description": "DailyQuote gives you inspiration each day with quotes, stories, and reflections. You can browse by topic (motivation, love, success). The app supports scheduling daily push notifications. You can save favorite quotes, share them on social media, or set them as your wallpaper. It includes a quote-of-the-day widget. Archive lets you view past quotes. You can submit your own quotes and see trending ones. Offline mode allows browsing without connection. It supports dark mode and font customization.",
+    "document":"DailyQuote is your daily source of inspiration and motivation, designed to uplift your mood and mindset. The app delivers hand-picked quotes every day to inspire positivity and personal growth. You can explore quotes across categories like success, happiness, love, and mindfulness. DailyQuote allows you to save your favorite quotes for future reference or sharing. The app supports sharing quotes on social media or with friends and family. You can set reminders to receive daily motivational quotes at your preferred time. DailyQuote provides beautiful backgrounds and designs to make each quote visually appealing. The app encourages reflection by letting you journal your thoughts and insights on each quote. You can discover famous quotes from authors, leaders, and visionaries around the world. DailyQuote offers a search feature to find quotes by keyword, author, or topic. Inspirational notifications help you stay motivated throughout the day. You can create custom quote collections to suit your mood or goals. DailyQuote also features weekly or monthly compilations for deeper reflection. The app is designed to boost positivity, focus, and determination in everyday life. Overall, DailyQuote makes it easy to stay inspired, motivated, and mindful, one quote at a time.",
+    "size": 20,
+    "reviews": 640,
+    "ratingAvg": 4.5,
+    "downloads": 250000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 25
+      },
+      {
+        "name": "2 star",
+        "count": 35
+      },
+      {
+        "name": "3 star",
+        "count": 80
+      },
+      {
+        "name": "4 star",
+        "count": 180
+      },
+      {
+        "name": "5 star",
+        "count": 320
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/21s3NgFb/19-Game-Zone1.png",
+    "title": "GameZone",
+    "subtitle":"GameZone: Play, Compete & Have Fun",
+    "companyName": "PlayVerse",
+    "id": 19,
+    "description": "GameZone lets you browse trending mobile games, join tournaments, and track your achievements. You can see ratings, reviews, and YouTuber videos for each game. The app supports leaderboards, friend challenges, and gaming news updates. You can schedule sessions, read tips and guides, and get deal alerts. It offers filters by genre, popularity, or platform. The app also shows recommended new games. Sync with your game accounts to track progress. Offline mode caches game lists. You can mark favorites and get notifications about updates or events.",
+    "document":"GameZone is your ultimate gaming hub, designed to bring fun and excitement to your fingertips. It offers a wide variety of games across genres like action, puzzle, strategy, and arcade. You can play solo challenges or compete with friends and players worldwide. GameZone tracks your scores, achievements, and progress for every game. The app provides leaderboards to compare your performance with others. You can customize your gaming experience with themes, avatars, and settings. GameZone includes daily challenges and special events to keep gameplay exciting. The app allows saving and resuming games anytime for seamless play. You can discover trending and recommended games based on your preferences. GameZone supports multiplayer modes for cooperative or competitive fun. The app provides tutorials and tips to improve your skills. Notifications alert you to new games, updates, and special offers. GameZone ensures a smooth and engaging experience with optimized performance. You can share achievements and invite friends to join challenges. Overall, GameZone makes gaming enjoyable, interactive, and accessible for everyone, anytime and anywhere.",
+    "size": 110,
+    "reviews": 6000,
+    "ratingAvg": 4.1,
+    "downloads": 7000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 700
+      },
+      {
+        "name": "2 star",
+        "count": 750
+      },
+      {
+        "name": "3 star",
+        "count": 1300
+      },
+      {
+        "name": "4 star",
+        "count": 1600
+      },
+      {
+        "name": "5 star",
+        "count": 1650
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/tMB8dwhk/20-Docu-Scan-1.png",
+    "title": "DocuScan",
+    "subtitle":"DocuScan: Scan, Store & Share Documents",
+    "companyName": "OfficePlus",
+    "id": 20,
+    "description": "DocuScan digitizes paper documents with automatic edge detection, cropping, and perspective correction. You can scan to PDF or image formats. It supports OCR to extract text. The app syncs scans to cloud storage. You can organize files in folders and search by keywords. It supports batch scanning and multi-page documents. You can annotate or sign documents. The app supports dark mode and secure storage with PIN or biometric lock. Export and share scans via email or link. Offline scanning is fully supported.",
+    "document":"DocuScan is your all-in-one document scanning app designed to simplify your digital workflow. It allows you to scan documents, receipts, notes, and photos with high-quality results. You can convert scanned documents into PDF or image formats for easy sharing and storage. DocuScan provides automatic edge detection and perspective correction for perfect scans. The app supports OCR (Optical Character Recognition) to extract text from images. You can organize documents into folders and tag them for quick access. DocuScan allows secure storage with cloud backup to protect your important files. You can share scanned documents via email, messaging apps, or cloud services. The app includes editing tools to crop, rotate, and enhance scans. DocuScan supports batch scanning to save time when digitizing multiple documents. Smart search lets you find documents instantly using keywords. The app provides password protection and encryption for sensitive files. Notifications help you remember to scan or back up important documents. DocuScan also integrates with productivity apps for seamless workflow management. Overall, DocuScan makes scanning, organizing, and sharing documents fast, secure, and effortless.",
+    "size": 66,
+    "reviews": 2800,
+    "ratingAvg": 4.6,
+    "downloads": 2000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 130
+      },
+      {
+        "name": "2 star",
+        "count": 160
+      },
+      {
+        "name": "3 star",
+        "count": 250
+      },
+      {
+        "name": "4 star",
+        "count": 720
+      },
+      {
+        "name": "5 star",
+        "count": 1540
+      }
+    ]
+  }
+]

@@ -1,4 +1,5 @@
 import React from "react";
+import { FaGooglePlay, FaStar } from "react-icons/fa";
 import { IoDownloadSharp } from "react-icons/io5";
 
 const StatesSection = () => {
@@ -46,7 +47,7 @@ const StatesSection = () => {
               </p>
             </div>
           </div>
-          <IoDownloadSharp color="white" size={60} />
+          <FaStar color="white" size={60} />
         </div>
         <div className="text-center gap-5 flex justify-center items-center">
           <div className="text-white space-y-2">
@@ -64,7 +65,7 @@ const StatesSection = () => {
               </p>
             </div>
           </div>
-          <IoDownloadSharp color="white" size={60} />
+          <FaGooglePlay color="white" size={60} />
         </div>
       </div>
     </div>
