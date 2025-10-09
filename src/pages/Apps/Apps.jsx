@@ -36,35 +36,35 @@ const Apps = () => {
   return (
     <Container>
       <div>
-        <h2 className="text-5xl pt-15 font-bold flex justify-center items-center text-stone-700 gap-3">
+        <h2 className="text-2xl md:text-5xl pt-5 md:pt-15 font-bold flex justify-center items-center text-stone-700 2xl:gap-3">
           Our All Applications <VscVscodeInsiders color="#632ee3" size={55} />
         </h2>
-        <p className="text-xl text-center text-[#627382] pb-4 mt-5">
+        <p className="text-sm md:text-xl text-center text-[#627382] pb-4 mt-5">
           Explore All Apps on the Market developed by us. We code for Millions
         </p>
       </div>
 
-      <div className="flex justify-between items-center ">
-        <p className="text-xl font-semibold text-gray-700">
+      <div className="flex md:justify-between items-center px-2 md:py-0">
+        <p className="flex-1 text-base md:text-xl font-semibold text-gray-700">
           ({filteredApps.length}) App Found
         </p>
 
-        <form onSubmit={handleSearch} className="relative w-72">
+        <form onSubmit={handleSearch} className="flex-1 md:flex-none relative md:w-72">
           <HiMiniMagnifyingGlass
-            className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"
+            className="absolute md:left-3 top-1/2 transform -translate-y-1/2 text-gray-400"
             size={20}
           />
           <input
             type="text"
             placeholder="Search Apps"
-            className="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
+            className="w-full pl-5 md:pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"
             value={searchItem}
             onChange={(e) => setSearchItem(e.target.value)}
           />
         </form>
       </div>
 
-      <div className="grid grid-cols-4 gap-6 py-10">
+      <div className="grid md:grid-cols-4 gap-6 py-10 px-3 md:px-0">
         {filteredApps.length > 0 ? (
           filteredApps.map((app, index) => <AppCard key={index} app={app} />)
         ) : (

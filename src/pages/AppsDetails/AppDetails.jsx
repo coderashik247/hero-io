@@ -50,21 +50,21 @@ const AppDetails = () => {
 
   return (
     <Container>
-      <div className="pt-10">
-        <div className="grid grid-cols-4 pb-8">
-          <div className="col-span-1">
+      <div className="pt-10 md:px-2 lg:px-2">
+        <div className="grid grid-cols-1 md:grid-cols-4 pb-8 ">
+          <div className="col-span-1 ">
             <img
               src={singleAppData.image}
-              className="h-[350px] w-[350px] bg-white"
+              className="h-[350px] w-[350px] bg-white "
               alt=""
             />
           </div>
-          <div className="col-span-3 pl-14 space-y-3">
-            <h2 className="text-3xl mt-1 font-bold text-[#001931]">
+          <div className="col-span-1 md:col-span-3 md:pl-14 p-3 space-y-1 md:space-y-3">
+            <h2 className="text-lg md:text-3xl mt-1 font-bold text-[#001931]">
               {" "}
               {singleAppData.subtitle}{" "}
             </h2>
-            <p className="text-xl mb-8">
+            <p className="text-sm md:text-xl mb-4 md:mb-8">
               {" "}
               Developed by{" "}
               <span className="text-[#632ee3] font-bold ">
@@ -72,17 +72,17 @@ const AppDetails = () => {
                 {singleAppData.companyName}{" "}
               </span>
             </p>
-            <div className="border-t-2 border-gray-300 mb-5 pt-8 flex gap-16">
+            <div className="border-t-2 border-gray-300 mb-5 pt-4 md:pt-8 flex gap-10 md:gap-16">
               <div className="text-center flex justify-center items-center">
-                <div className="text-white space-y-4">
+                <div className="text-white space-y-1 md:space-y-4">
                   <div className="flex justify-center items-center flex-col">
-                    <img src={downloadImg} alt="" />
-                    <p className="text-sm mt-4 text-[#001931aa] font-light tracking-wider">
+                    <img className="h-6 md:h-10" src={downloadImg} alt="" />
+                    <p className="text-[10px] md:text-sm mt-2 md:mt-4 text-[#001931aa] font-light tracking-wider">
                       Downloads
                     </p>
                   </div>
                   <div className="mt-0">
-                    <h1 className="text-3xl font-bold text-[#001931]">
+                    <h1 className="text-xl md:text-3xl font-bold text-[#001931]">
                       {" "}
                       {singleAppData.downloads}{" "}
                     </h1>
@@ -91,15 +91,15 @@ const AppDetails = () => {
               </div>
               {/* Average Ratings */}
               <div className="text-center flex justify-center items-center">
-                <div className="text-white space-y-4">
+                <div className="text-white spacey-1 md:space-y-4">
                   <div className="flex justify-center items-center flex-col">
-                    <FaStar color="orange" size={40} />
-                    <p className="text-sm mt-4 text-[#001931aa] font-light tracking-wider">
+                    <FaStar color="orange" className="h-6 md:h-11" size={40} />
+                    <p className="text-[10px] md:text-sm mt-2 md:mt-4 text-[#001931aa] font-light tracking-wider">
                       Average Ratings
                     </p>
                   </div>
-                  <div className="mt-0">
-                    <h1 className="text-3xl font-bold text-[#001931] ">
+                  <div className="mt-0 ">
+                    <h1 className="text-[22px] md:text-3xl font-bold text-[#001931] ">
                       {singleAppData.ratingAvg}
                     </h1>
                   </div>
@@ -107,15 +107,15 @@ const AppDetails = () => {
               </div>
               {/* Total Reviews */}
               <div className="text-center flex justify-center items-center">
-                <div className="text-white space-y-4">
-                  <div className="flex justify-center items-center flex-col">
-                    <img src={likeImg} alt="" />
-                    <p className="text-sm mt-4 text-[#001931aa] font-light tracking-wider">
+                <div className="text-white space-y-2 md:space-y-8">
+                  <div className="flex justify-center items-center mb-1 md:mb-4 flex-col">
+                    <img className="h-7 md:h-12" src={likeImg} alt="" />
+                    <p className="text-[10px] md:text-sm mt-2 md:mt-4 text-[#001931aa] font-light tracking-wider">
                       Total Reviews
                     </p>
                   </div>
                   <div className="mt-0">
-                    <h1 className="text-3xl font-bold text-[#001931]">
+                    <h1 className="text-xl md:text-3xl font-bold text-[#001931]">
                       {" "}
                       {singleAppData.reviews}
                     </h1>
@@ -129,7 +129,7 @@ const AppDetails = () => {
                 setClickInstall(true);
               }}
               disabled={clickInstall}
-              className={`bg-[#00d390] rounded-lg font-semibold text-white px-6 py-3 hover:scale-105 hover:cursor-pointer hover:bg-white hover:text-[#00d390] hover:border-[#00d390]  hover:border disabled:opacity-60 disabled:cursor-not-allowed`}
+              className={`bg-[#00d390] rounded-lg font-semibold text-white px-4 md:px-6 py-2 md:py-3 hover:scale-105 hover:cursor-pointer hover:bg-white hover:text-[#00d390] hover:border-[#00d390]  hover:border disabled:opacity-60 disabled:cursor-not-allowed`}
             >
               {clickInstall
                 ? "Installed"
@@ -139,7 +139,7 @@ const AppDetails = () => {
         </div>
 
         {/* Recharts */}
-        <div className="mt-8 border-t border-b py-10 border-gray-400">
+        <div className="md:mt-8 border-t border-b py-10 border-gray-400 p-2 md:p-0">
           <h3 className="text-lg font-semibold text-gray-700 mb-4">Ratings</h3>
           <div className="w-full h-64">
             <ResponsiveContainer width="100%" height="100%">
@@ -176,21 +176,21 @@ const AppDetails = () => {
         </div>
 
         {/* Description */}
-        <div className="mt-8 pb-8">
+        <div className="mt-3 md:mt-8 md:pb-8 p-3">
           <h3 className="text-lg font-semibold text-gray-700 mb-4">
             Description
           </h3>
-          <p className="text-[#627382] leading-8 text-lg text-justify">
+          <p className="text-[#627382] md:leading-8  md:text-lg text-justify">
             {" "}
             {singleAppData.description}{" "}
           </p>
-          <p className="text-[#627382] leading-8 text-lg text-justify">
+          <p className="text-[#627382] md:leading-8 md:text-lg text-justify">
             {" "}
             {singleAppData.document}{" "}
           </p>
         </div>
       </div>
-      <div className="flex justify-center items-center py-10">
+      <div className="flex justify-center items-center py-5 md:py-10">
         <a
           onClick={() => navigate(-1)}
           target="_blank"

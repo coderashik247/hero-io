@@ -21,13 +21,11 @@ const Installation = () => {
   const [loading, setLoading] = useState(true); 
 
   useEffect(() => {
-    // set apps data and simulate loader
     setInstallApp(loaderApps);
     const timer = setTimeout(() => setLoading(false), 300);
     return () => clearTimeout(timer);
   }, [loaderApps]);
 
-  // SORTING FUNCTION
   const handleSort = (type) => {
     setSort(type);
     if (!installApp || installApp.length === 0) return;
@@ -41,29 +39,27 @@ const Installation = () => {
     setInstallApp(sorted);
   };
 
-  // UNINSTALL FUNCTION
   const handleUninstall = (app) => {
     deleteApps(app);
     const updatedApps = installApp.filter((a) => a.id !== app.id);
     setInstallApp(updatedApps);
   };
 
-  // Show loader if navigating or local loading
   if (navigation.state === "loading" || loading) return <Loader />;
 
   return (
     <Container>
       <div>
-        <h2 className="text-5xl pt-15 font-bold flex justify-center items-center text-stone-700 gap-3">
+        <h2 className="text-2xl 2xl:text-5xl pt-5 2xl:pt-15 font-bold flex justify-center items-center text-stone-700 gap-3">
           Your Installed Apps <LiaDropbox color="#632ee3" size={55} />
         </h2>
-        <p className="text-xl text-center text-[#627382] pb-4 mt-5">
+        <p className="text-sm 2xl:text-xl text-center text-[#627382] pb-4 mt-1 2xl:mt-5">
           Explore All Trending Apps on the Market developed by us
         </p>
       </div>
 
       {/* SORTING */}
-      <div className="flex justify-between items-center border-b pb-4 border-gray-400">
+      <div className="flex justify-between items-center border-b pb-4 px-2 2xl:px-0 border-gray-400">
         <p className="text-xl font-semibold text-gray-700">
           ({installApp.length}) App Found
         </p>
@@ -92,15 +88,15 @@ const Installation = () => {
         installApp.map((app) => (
           <div
             key={app.id}
-            className="flex justify-between bg-white mt-6 py-4 px-3 rounded-lg"
+            className="flex flex-col justify-between bg-white mt-6 py-2 2xl:py-4 px-1 2xl:px-3 rounded-lg m-2"
           >
-            <div className="flex gap-4">
+            <div className="flex  gap-4">
               <div>
-                <img className="h-[80px] w-[80px]" src={app.image} alt="" />
+                <img className="object-cover h-[80px] w-[80px]" src={app.image} alt="" />
               </div>
               <div>
-                <h2 className="text-xl">{app.subtitle}</h2>
-                <div className="flex gap-2 mt-3">
+                <h2 className="text-base 2xl:text-xl">{app.subtitle}</h2>
+                <div className="flex gap-2 2xl:mt-3">
                   <span className="flex items-center justify-center gap-1 text-[#026346] p-1 rounded-sm">
                     <MdOutlineFileDownload size={19} />
                     {app.downloads}
