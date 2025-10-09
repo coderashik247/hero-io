@@ -4,6 +4,14 @@ import Home from "../pages/Home/Home";
 import Apps from "../pages/Apps/Apps";
 import Installation from "../pages/Installation/Installation";
 import AppDetails from "../pages/AppsDetails/AppDetails";
+import ErrorPage from "../components/ErrorPage/ErrorPage";
+import { getApps } from "../utils";
+
+export const installationLoader = async () => {
+    const apps = getApps();
+    return apps;
+}
+
 
 
 export const router = createBrowserRouter([
@@ -27,8 +35,13 @@ export const router = createBrowserRouter([
                 loader:() => fetch('/appsData.json')
             },
             {
-                path:'installation',
-                element:<Installation></Installation>
+                path:'/installation',
+                element:<Installation></Installation>,
+                loader: installationLoader,
+            },
+            {
+                path: '*',
+                element: <ErrorPage></ErrorPage>
             }
         ]
     }

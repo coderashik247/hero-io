@@ -1,4 +1,4 @@
-import { useLoaderData, useParams } from "react-router";
+import { useLoaderData, useNavigate, useParams } from "react-router";
 import downloadImg from "../../assets/download.png";
 import likeImg from "../../assets/like.png";
 import Container from "../../components/Container/Container";
@@ -15,30 +15,38 @@ import {
 } from "recharts";
 import { getApps, saveApps } from "../../utils";
 import { useEffect, useState } from "react";
-
+import { RiArrowGoBackLine } from "react-icons/ri";
+import ErrorPage from "../../components/ErrorPage/ErrorPage";
 
 const AppDetails = () => {
+  const navigate = useNavigate();
   const { appsId } = useParams();
-
   const appsData = useLoaderData();
-
-  const singleAppData = appsData.find((app) => app.id === parseInt(appsId));
-
-  const data = [...singleAppData.ratings].reverse();
 
   const [clickInstall, setClickInstall] = useState(false);
 
-    useEffect(() => {
+  useEffect(() => {
+    if (!appsData) return;
+    const singleAppData = appsData.find((app) => app.id === parseInt(appsId));
+    if(!singleAppData) return;
     const savedApps = getApps();
     const isInstalled = savedApps.find((a) => a.id === singleAppData.id);
     if (isInstalled) {
       setClickInstall(true);
     }
-  }, [singleAppData.id]);
+  }, [appsData, appsId]);
+
+    const singleAppData = appsData.find((app) => app.id === parseInt(appsId));
+
+  if (!singleAppData) {
+    return <ErrorPage></ErrorPage>;
+  }
+
+  const data = [...singleAppData.ratings].reverse();
 
   const handleInstall = (singleApp) => {
-    saveApps((singleApp));
-  }
+    saveApps(singleApp);
+  };
 
   return (
     <Container>
@@ -115,8 +123,17 @@ const AppDetails = () => {
                 </div>
               </div>
             </div>
-            <button onClick={() => {handleInstall(singleAppData); setClickInstall(true) }} disabled={clickInstall} className={`bg-[#00d390] rounded-lg font-semibold text-white px-6 py-3 hover:scale-105 hover:cursor-pointer hover:bg-white hover:text-[#00d390] hover:border-[#00d390]  hover:border disabled:opacity-60 disabled:cursor-not-allowed`}>
-              {clickInstall ? "Installed" : `Install Now (${singleAppData.size})`}
+            <button
+              onClick={() => {
+                handleInstall(singleAppData);
+                setClickInstall(true);
+              }}
+              disabled={clickInstall}
+              className={`bg-[#00d390] rounded-lg font-semibold text-white px-6 py-3 hover:scale-105 hover:cursor-pointer hover:bg-white hover:text-[#00d390] hover:border-[#00d390]  hover:border disabled:opacity-60 disabled:cursor-not-allowed`}
+            >
+              {clickInstall
+                ? "Installed"
+                : `Install Now (${singleAppData.size})`}
             </button>
           </div>
         </div>
@@ -160,10 +177,31 @@ const AppDetails = () => {
 
         {/* Description */}
         <div className="mt-8 pb-8">
-          <h3 className="text-lg font-semibold text-gray-700 mb-4">Description</h3>
-          <p className="text-[#627382] leading-8 text-lg text-justify"> {singleAppData.description} </p>
-          <p className="text-[#627382] leading-8 text-lg text-justify"> {singleAppData.document} </p>
+          <h3 className="text-lg font-semibold text-gray-700 mb-4">
+            Description
+          </h3>
+          <p className="text-[#627382] leading-8 text-lg text-justify">
+            {" "}
+            {singleAppData.description}{" "}
+          </p>
+          <p className="text-[#627382] leading-8 text-lg text-justify">
+            {" "}
+            {singleAppData.document}{" "}
+          </p>
         </div>
+      </div>
+      <div className="flex justify-center items-center py-10">
+        <a
+          onClick={() => navigate(-1)}
+          target="_blank"
+          style={{
+            background:
+              "linear-gradient(125.07deg, rgba(99, 46, 227, 1), rgba(159, 98, 242, 1) 100%)",
+          }}
+          className="py-1 px-2 lg:px-6 text-lg text-white font-semibold border rounded-lg flex justify-center items-center gap-2 hover:cursor-pointer hover:scale-105"
+        >
+          <RiArrowGoBackLine /> Go Back
+        </a>
       </div>
     </Container>
   );

@@ -1,15 +1,21 @@
-import React from "react";
+import Loader from "../../components/Loader/Loader";
 import Banner from "../../components/Banner/Banner";
 import StatesSection from "../../components/StatesSection/StatesSection";
-import { useLoaderData, useNavigate } from "react-router";
+import { useLoaderData, useNavigate, useNavigation } from "react-router";
 import AppCard from "../../components/AppCard/AppCard";
 import { IoMdTrendingUp } from "react-icons/io";
 import Container from "../../components/Container/Container";
 import { FaArrowRightToBracket } from "react-icons/fa6";
 
+
 const Home = () => {
   const appsData = useLoaderData();
   const navigate = useNavigate();
+  const navigation = useNavigation();
+
+  if (navigation.state === "loading") {
+    return <Loader></Loader>;
+  }
   return (
     <div>
       <Banner></Banner>
@@ -29,8 +35,8 @@ const Home = () => {
             ))}
           </div>
           <div className="pb-10 flex justify-center items-center">
-            <button 
-            onClick={() => navigate('/apps')}
+            <button
+              onClick={() => navigate("/apps")}
               style={{
                 background:
                   "linear-gradient(125.07deg, rgba(99, 46, 227, 1), rgba(159, 98, 242, 1) 100%)",
