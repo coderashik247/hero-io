@@ -1,4 +1,4 @@
-# Live Link: hero-acc-io.netlify.app
+**Live Link:** [hero-acc-io.netlify.app](https://hero-acc-io.netlify.app)
 
 # App Name: AppVerse – Explore & Discover Amazing Apps
 
